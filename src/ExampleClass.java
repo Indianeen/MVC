@@ -9,6 +9,7 @@ import java.io.Serializable;
 public class ExampleClass implements Serializable {
     double x;
     double y;
+    private static final long serialVersionUID = 1234L;
 
     public ExampleClass() {
         x = 3.14;
