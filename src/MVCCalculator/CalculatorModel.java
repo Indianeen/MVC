@@ -1,3 +1,5 @@
+package MVCCalculator;
+
 /**
  * Created by magnus on 2017-01-27.
  */
@@ -15,5 +17,11 @@ public class CalculatorModel {
 
     public int getCalculationValue(){
         return calculationValue;
+    }
+
+    public static void main(String[] args) {
+        CalculatorModel test = new CalculatorModel();
+        test.addTwoNumbers(5,7);
+        System.out.println(test.getCalculationValue());
     }
 }
