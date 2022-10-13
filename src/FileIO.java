@@ -1,8 +1,8 @@
-/**
- * This is a class
- * Created 2020-11-16
- *
- * @author Magnus Silverdal
+/*
+  This is a class
+  Created 2020-11-16
+
+  @author Magnus Silverdal
  */
 import java.io.*;
 
