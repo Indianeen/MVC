@@ -1,3 +1,5 @@
+package MVCCalculator;
+
 /**
  * Created by magnus on 2017-01-27.
  */
