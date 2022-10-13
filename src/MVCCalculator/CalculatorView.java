@@ -8,6 +8,7 @@ package MVCCalculator; /**
 // it.
 import java.awt.event.ActionListener;
 import javax.swing.*;
+
 public class CalculatorView extends JFrame {
     private JTextField firstNumber = new JTextField(10);
     private JLabel additionLabel = new JLabel("+");
@@ -37,10 +38,6 @@ public class CalculatorView extends JFrame {
         return Integer.parseInt(secondNumber.getText());
     }
 
-    public int getCalcSolution() {
-        return Integer.parseInt(calcSolution.getText());
-    }
-
     public void setCalcSolution(int solution) {
         calcSolution.setText(Integer.toString(solution));
     }
@@ -54,5 +51,10 @@ public class CalculatorView extends JFrame {
     // Open a popup that contains the error message passed
     void displayErrorMessage(String errorMessage) {
         JOptionPane.showMessageDialog(this, errorMessage);
+    }
+
+    public static void main(String[] args) {
+        CalculatorView test = new CalculatorView();
+        test.setVisible(true);
     }
 }

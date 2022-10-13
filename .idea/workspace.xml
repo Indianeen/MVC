@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baf05041-419d-44d1-9753-e775f097f25b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCExample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVCCalculator/CalculatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculatorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVCCalculator/CalculatorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculatorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVCCalculator/CalculatorView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MVCCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVCCalculator/MVCCalculator.java" afterDir="false" />
+    <list default="true" id="baf05041-419d-44d1-9753-e775f097f25b" name="Default" comment="Fixed stuff">
+      <change afterPath="$PROJECT_DIR$/src/MVCCrypt/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVCCrypt/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVCCrypt/View.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVCCrypt/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ViewExampel/CryptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVCExample/MVCCalculator/CalculatorModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVCExample/MVCCalculator/CalculatorModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVCExample/MVCCalculator/CalculatorView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVCExample/MVCCalculator/CalculatorView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVCCalculator/CalculatorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVCCalculator/CalculatorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVCCalculator/Crypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVCCalculator/Crypt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MVCCalculator">
+  <component name="RunManager" selected="Application.Controller">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -206,6 +205,20 @@
       <listeners />
       <method />
     </configuration>
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MVCCrypt.Controller" />
+      <module name="MVCExample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MVCCrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MVCCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MVCCalculator.MVCCalculator" />
       <module name="MVCExample" />
@@ -214,15 +227,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MVCSolo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MVCSolo.MVCSolo" />
+    <configuration name="Model" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MVCCrypt.Model" />
       <module name="MVCExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MVCCrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MVCCrypt.View" />
+      <module name="MVCExample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MVCCrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crypto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crypto" />
+      <module name="MVCExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -261,12 +302,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MVCCalculator" />
-      <item itemvalue="Application.MVCSolo" />
+      <item itemvalue="Application.crypto" />
+      <item itemvalue="Application.Model" />
+      <item itemvalue="Application.View" />
+      <item itemvalue="Application.Controller" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.View" />
+        <item itemvalue="Application.Model" />
+        <item itemvalue="Application.crypto" />
         <item itemvalue="Application.MVCCalculator" />
-        <item itemvalue="Application.MVCSolo" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +329,19 @@
       <option name="presentableId" value="Default" />
       <updated>1485500539204</updated>
     </task>
+    <task id="LOCAL−00001" summary="Fixed stuff">
+      <created>1663240444555</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1663240444555</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Fixed stuff">
+      <created>1663240542197</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1663240542197</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -356,6 +416,21 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed stuff" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MVCCalculator/Crypt.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CalculatorModel.java">
